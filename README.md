@@ -23,5 +23,6 @@ I am using this codes for working.
 ## ai sample script
 ## repeated not find element problem
 ## AI
+## add new tabs on selenium
 
 __  @ 2021 05 01 __
