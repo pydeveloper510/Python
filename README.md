@@ -25,4 +25,4 @@ I am using this codes for working.
 ## AI
 ## add new tabs on selenium
 
-__  @ 2021 05 01 __
+__  @ 2021 06 18 __
