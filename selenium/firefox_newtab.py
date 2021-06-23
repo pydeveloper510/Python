@@ -28,3 +28,6 @@ time.sleep(3)
 
 # Close the only tab, will also close the browser.
 driver.close()
+
+
+driver.execute_script('''window.open("http://bings.com","_blank");''')
