@@ -23,6 +23,7 @@ I am using this codes for working.
 ## ai sample script
 ## repeated not find element problem
 ## AI
-## add new tabs on selenium
+## add new tabs on selenium chrome and firefox
+## run script on ubuntu
 
 __  @ 2021 06 18 __
