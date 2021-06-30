@@ -70,4 +70,6 @@ I am using this codes for working.
             
     capcha solver site link
     
+    axie import extenstion swap to extension
+    
 __  @ 2021 06 18 __
