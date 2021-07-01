@@ -73,4 +73,7 @@ I am using this codes for working.
     axie import extenstion swap to extension
     extension is handler 0
     
+    # username = os.getenv("USERNAME")
+        # userProfile = "C:\\Users\\" + username + "\\AppData\\Local\\Google\\Chrome\\User Data\\Default"
+    
 __  @ 2021 06 18 __
