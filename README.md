@@ -71,5 +71,6 @@ I am using this codes for working.
     capcha solver site link
     
     axie import extenstion swap to extension
+    extension is handler 0
     
 __  @ 2021 06 18 __
