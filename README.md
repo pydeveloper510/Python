@@ -69,7 +69,7 @@ I am using this codes for working.
             'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.10; rv:62.0) Gecko/20100101 Firefox/62.0',
             'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:10.0) Gecko/20100101 Firefox/62.0'
             
-    capcha solver site link
+    # capcha solver site link
     
     axie import extenstion swap to extension
     extension is handler 0
