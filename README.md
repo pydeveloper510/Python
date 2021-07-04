@@ -38,5 +38,11 @@ I am using this codes for working.
     
 ## IP address Mac address
     print(f'Ip blocked IP Address: {socket.gethostbyname(socket.getfqdn())} Mac Address: {getmac.get_mac_address()}')
+
+## logging
+import logging
+logging.basicConfig(format='%(asctime)s - %(levelname)s - %(message)s')
+logging.warning('Total time the function({}) was executed: {} minutes {} seconds'.format(func.__name__, minutes, seconds))
+
                       
 __  @ 2021 06 18 __
