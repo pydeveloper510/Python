@@ -37,7 +37,6 @@ I am using this codes for working.
     upload and download file to google driver
     
 ## IP address Mac address
- print(f'Ip blocked IP Address: {socket.gethostbyname(socket.getfqdn())} '
-                      f'Mac Address: {getmac.get_mac_address()}')
+    print(f'Ip blocked IP Address: {socket.gethostbyname(socket.getfqdn())} Mac Address: {getmac.get_mac_address()}')
                       
 __  @ 2021 06 18 __
