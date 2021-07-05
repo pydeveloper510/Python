@@ -36,9 +36,6 @@ I am using this codes for working.
     
     upload and download file to google driver
     
-## IP address Mac address
-    print(f'Ip blocked IP Address: {socket.gethostbyname(socket.getfqdn())} Mac Address: {getmac.get_mac_address()}')
-
 ## logging
     import logging
     logging.basicConfig(format='%(asctime)s - %(levelname)s - %(message)s')
