@@ -36,11 +36,6 @@ I am using this codes for working.
     
     upload and download file to google driver
     
-## logging
-    import logging
-    logging.basicConfig(format='%(asctime)s - %(levelname)s - %(message)s')
-    logging.warning('Total time the function({}) was executed: {} minutes {} seconds'.format(func.__name__, minutes, seconds))
-
 ## schedule
 설치: 
 pip install schedule
