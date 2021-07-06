@@ -41,7 +41,7 @@ I am using this codes for working.
 pip install schedule
 
 
-# 사용방법
+# Usage
 import schedule
 import time
  
@@ -49,17 +49,17 @@ def job():
     print("I'm working...")
  
 
-### 10초에 한번씩 실행
+### Running per 10 seconds
 schedule.every(10).second.do(job)
-### 10분에 한번씩 실행
+### Running per 10 minutes
 schedule.every(10).minutes.do(job)
-### 매 시간 실행
+### Running per hour
 schedule.every().hour.do(job)
-### 매일 10:30 에 실행
+### Running at 10:30 oclock everyday
 schedule.every().day.at("10:30").do(job)
-### 매주 월요일 실행
+### Running every on monday
 schedule.every().monday.do(job)
-### 매주 수요일 13:15 에 실행
+### Running on wednesday 13:15
 schedule.every().wednesday.at("13:15").do(job)
  
 
