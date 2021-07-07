@@ -8,7 +8,8 @@ I am using this codes for working.
 ## Scroll down selenium (completed have to add)
 ## String split, convert
 ## Ip rolling
-## solve capcha (using extension)
+## solve captcha (using extension)
+            https://2captcha.com/2captcha-api#solving_hcaptcha
 ## session and cookie compare
 ## CSP disabled
 ## extension crx add
