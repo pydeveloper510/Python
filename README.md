@@ -27,6 +27,7 @@ I am using this codes for working.
 ## AI
 ## add new tabs on selenium chrome and firefox
             driver.window_handles[0]
+            driver.switch_to_window(window_after)
 ## run script on ubuntu
             
    # capcha solver site link
