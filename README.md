@@ -28,6 +28,7 @@ I am using this codes for working.
 ## add new tabs on selenium chrome and firefox
             driver.window_handles[0]
             driver.switch_to_window(window_after)
+            driver.execute_script('window.open("about:blank", "_blank");')
 ## run script on ubuntu
             
    # capcha solver site link
