@@ -39,7 +39,7 @@ I am using this codes for working.
     upload and download file to google driver
     
 ## schedule
-설치: 
+Install: 
 pip install schedule
 
 
