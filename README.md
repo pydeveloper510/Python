@@ -26,6 +26,7 @@ I am using this codes for working.
 ## repeated not find element problem
 ## AI
 ## add new tabs on selenium chrome and firefox
+            driver.window_handles[0]
 ## run script on ubuntu
             
    # capcha solver site link
