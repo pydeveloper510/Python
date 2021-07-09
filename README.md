@@ -75,4 +75,27 @@ while True:
    
 # option
             chrome_options.add_argument("--disable-popup-blocking")
+# open browser with on your local chrome.exe
+                    try:
+            shutil.rmtree(r"c:\chrometemp")  # delete cache file
+        except FileNotFoundError:
+            pass
+
+        subprocess.Popen(
+            r'C:\Program Files\Google\Chrome\Application\chrome.exe'
+            r' --remote-debugging-port=9222 --user-data-dir="C:\chrometemp"')  # debuger
+
+        option = Options()
+        # option.add_extension(r'assets\extension\1.1.6_0.crx')
+        option.add_experimental_option("debuggerAddress", "127.0.0.1:9222")
+
+        chrome_ver = chromedriver_autoinstaller.get_chrome_version().split('.')[0]
+        try:
+            self.main_driver = webdriver.Chrome(f'./{chrome_ver}/chromedriver.exe', options=option)
+        except:
+            chromedriver_autoinstaller.install(True)
+            self.main_driver = webdriver.Chrome(f'./{chrome_ver}/chromedriver.exe', options=option)
+        self.main_driver.implicitly_wait(10)
+
+            
 __  @ 2021 06 18 __
