@@ -76,7 +76,7 @@ while True:
 # option
             chrome_options.add_argument("--disable-popup-blocking")
 # open browser with on your local chrome.exe
-                    try:
+        try:
             shutil.rmtree(r"c:\chrometemp")  # delete cache file
         except FileNotFoundError:
             pass
