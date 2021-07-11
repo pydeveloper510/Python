@@ -139,4 +139,6 @@ while True:
                     self.thread.finished.connect(
                         lambda: self.stepLabel.setText("Long-Running Step: 0")
                     )
+# pyqt5 item disabled Qthread usage
+
 __  @ 2021 06 18 __
