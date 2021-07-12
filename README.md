@@ -14,7 +14,7 @@ I am using this codes for working.
 ## session and cookie compare
 ## CSP disabled
 ## extension crx add
-            options.add_extension(r'assets\extension\1.1.6_0.crx')
+    options.add_extension(r'assets\extension\1.1.6_0.crx')
 ## extensuib zip add
 ## login using scrapy
 ## login method 
@@ -27,9 +27,9 @@ I am using this codes for working.
 ## repeated not find element problem
 ## AI
 ## add new tabs on selenium chrome and firefox
-            driver.window_handles[0]
-            driver.switch_to_window(window_after)
-            driver.execute_script('window.open("about:blank", "_blank");')
+    driver.window_handles[0]
+    driver.switch_to_window(window_after)
+    driver.execute_script('window.open("about:blank", "_blank");')
 ## run script on ubuntu
             
    # capcha solver site link
@@ -74,28 +74,28 @@ while True:
     time.sleep(1)
    
 # option
-            chrome_options.add_argument("--disable-popup-blocking")
+    chrome_options.add_argument("--disable-popup-blocking")
 # open browser with on your local chrome.exe
-        try:
-            shutil.rmtree(r"c:\chrometemp")  # delete cache file
-        except FileNotFoundError:
-            pass
+    try:
+      shutil.rmtree(r"c:\chrometemp")  # delete cache file
+    except FileNotFoundError:
+      pass
 
-        subprocess.Popen(
-            r'C:\Program Files\Google\Chrome\Application\chrome.exe'
-            r' --remote-debugging-port=9222 --user-data-dir="C:\chrometemp"')  # debuger
+    subprocess.Popen(
+    r'C:\Program Files\Google\Chrome\Application\chrome.exe'
+    r' --remote-debugging-port=9222 --user-data-dir="C:\chrometemp"')  # debuger
 
-        option = Options()
-        # option.add_extension(r'assets\extension\1.1.6_0.crx')
-        option.add_experimental_option("debuggerAddress", "127.0.0.1:9222")
+     option = Options()
+    # option.add_extension(r'assets\extension\1.1.6_0.crx')
+    option.add_experimental_option("debuggerAddress", "127.0.0.1:9222")
 
-        chrome_ver = chromedriver_autoinstaller.get_chrome_version().split('.')[0]
-        try:
-            self.main_driver = webdriver.Chrome(f'./{chrome_ver}/chromedriver.exe', options=option)
-        except:
-            chromedriver_autoinstaller.install(True)
-            self.main_driver = webdriver.Chrome(f'./{chrome_ver}/chromedriver.exe', options=option)
-        self.main_driver.implicitly_wait(10)
+    chrome_ver = chromedriver_autoinstaller.get_chrome_version().split('.')[0]
+    try:
+      self.main_driver = webdriver.Chrome(f'./{chrome_ver}/chromedriver.exe', options=option)
+    except:
+    chromedriver_autoinstaller.install(True)
+    self.main_driver = webdriver.Chrome(f'./{chrome_ver}/chromedriver.exe', options=option)
+    self.main_driver.implicitly_wait(10)
 
 # multi thread (Qthread) pyqt5 
             from PyQt5.QtCore import QObject, QThread, pyqtSignal
