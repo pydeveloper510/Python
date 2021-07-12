@@ -9,8 +9,8 @@ I am using this codes for working.
 ## String split, convert
 ## Ip rolling
 ## solve captcha (using extension)
-            https://2captcha.com/2captcha-api#solving_hcaptcha
-            http://www.hyocr.com/index.php
+    https://2captcha.com/2captcha-api#solving_hcaptcha
+    http://www.hyocr.com/index.php
 ## session and cookie compare
 ## CSP disabled
 ## extension crx add
@@ -48,30 +48,30 @@ pip install schedule
 
 
 # Usage
-import schedule
-import time
+    import schedule
+    import time
  
-def job():
-    print("I'm working...")
- 
-
-### Running per 10 seconds
-schedule.every(10).second.do(job)
-### Running per 10 minutes
-schedule.every(10).minutes.do(job)
-### Running per hour
-schedule.every().hour.do(job)
-### Running at 10:30 oclock everyday
-schedule.every().day.at("10:30").do(job)
-### Running every on monday
-schedule.every().monday.do(job)
-### Running on wednesday 13:15
-schedule.every().wednesday.at("13:15").do(job)
+    def job():
+        print("I'm working...")
  
 
-while True:
-    schedule.run_pending()
-    time.sleep(1)
+    ### Running per 10 seconds
+    schedule.every(10).second.do(job)
+    ### Running per 10 minutes
+    schedule.every(10).minutes.do(job)
+    ### Running per hour
+    schedule.every().hour.do(job)
+    ### Running at 10:30 oclock everyday
+    schedule.every().day.at("10:30").do(job)
+    ### Running every on monday
+    schedule.every().monday.do(job)
+    ### Running on wednesday 13:15
+    schedule.every().wednesday.at("13:15").do(job)
+ 
+
+    while True:
+        schedule.run_pending()
+        time.sleep(1)
    
 # option
     chrome_options.add_argument("--disable-popup-blocking")
