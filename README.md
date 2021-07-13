@@ -12,7 +12,6 @@ I am using this codes for working.
     http://www.hyocr.com/index.php
 ## session and cookie compare
 ## CSP disabled
-## extensuib zip add
 ## login using scrapy
 ## login method 
 ## cookie or session expired time, relogin  sleep(5) must
