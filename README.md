@@ -142,5 +142,5 @@ pip install schedule
 # pyqt5 item disabled Qthread usage
 # 2captcha API
 # cloudflare captcha
-
-__  @ 2021 06 18 __
+#클라우드 
+__ @ 2021 06 18 __캡colback fuction
