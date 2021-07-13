@@ -1,7 +1,7 @@
 # Python
 Python scraping pattern
 
-You can find very usful sample codes in this.
+You can find very usful sample codes in here.
 I am using this codes for working.
 ## Html select tag select method (au scraping)
 ## Main selenium structrure
