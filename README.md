@@ -141,5 +141,6 @@ pip install schedule
 # pyqt5 item disabled Qthread usage
 # 2captcha API
 # cloudflare captcha
-#클라우드 
-__ @ 2021 06 18 __캡colback fuction
+    javascript callback funtion they encript token in callback function ???
+
+__ @ 2021 06 18 __
