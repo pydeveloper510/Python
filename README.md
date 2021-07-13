@@ -12,8 +12,6 @@ I am using this codes for working.
     http://www.hyocr.com/index.php
 ## session and cookie compare
 ## CSP disabled
-## extension crx add
-    options.add_extension(r'assets\extension\1.1.6_0.crx')
 ## extensuib zip add
 ## login using scrapy
 ## login method 
