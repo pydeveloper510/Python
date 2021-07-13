@@ -139,5 +139,8 @@ pip install schedule
 # 2captcha API
 # cloudflare captcha
     javascript callback funtion they encript token in callback function ???
+    
+# get tempfile location
+    
 
 __ @ 2021 06 18 __
