@@ -22,6 +22,7 @@ class Driver:
         # options.add_experimental_option("prefs",prefs)                                            # disable alert part
         # options.add_argument("--headless")  
         # options.add_argument('--no-sandbox')
+        options.add_extension(r'assets\extension\1.1.6_0.crx')
         # options.add_argument('--disable-dev-shm-usage')
         # options.add_argument('--ignore-certificate-errors')                                     #disable ssl handshake err
         # options.add_argument('--ignore-ssl-errors')          #disable ssl handshake err
