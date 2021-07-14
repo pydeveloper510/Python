@@ -147,6 +147,6 @@ pip install schedule
     10_str = int(16_str, 16)
     print(10_str)
 # 10 to any
-    any_str = "{0:o}".format(10_str) // o -> 8
+    any_str = "{0:o}".format(10_str) // o -> 8  b-> 2 x -> 16
     print(any_str)
 __ @ 2021 06 18 __
