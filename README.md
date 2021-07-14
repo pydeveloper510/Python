@@ -141,6 +141,7 @@ pip install schedule
     javascript callback funtion they encript token in callback function ???
     
 # get tempfile location
-    
+# python send payload with requests
+
 
 __ @ 2021 06 18 __
