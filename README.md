@@ -142,6 +142,6 @@ pip install schedule
     
 # get tempfile location
 # python send payload with requests
-
+# python chunked response decoding
 
 __ @ 2021 06 18 __
