@@ -142,6 +142,9 @@ pip install schedule
     
 # get tempfile location
 # python send payload with requests
-# python chunked response decoding
+# python chunked response decoding(br)
+# python 16 to 10
+    10_str = int(16_str, 16)
+    print(10_str)
 
 __ @ 2021 06 18 __
