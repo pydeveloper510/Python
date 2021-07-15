@@ -134,7 +134,6 @@ pip install schedule
                         lambda: self.stepLabel.setText("Long-Running Step: 0")
                     )
 # pyqt5 item disabled Qthread usage
-# 2captcha API
 # cloudflare captcha
     javascript callback funtion they encript token in callback function ???
     
