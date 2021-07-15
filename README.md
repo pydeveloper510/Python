@@ -26,8 +26,6 @@ I am using this codes for working.
     driver.execute_script('window.open("about:blank", "_blank");')
 ## run script on ubuntu
             
-   # capcha solver site link
-    
     axie import extenstion swap to extension
     extension is handler 0
     
@@ -134,8 +132,6 @@ pip install schedule
                         lambda: self.stepLabel.setText("Long-Running Step: 0")
                     )
 # pyqt5 item disabled Qthread usage
-# cloudflare captcha
-    javascript callback funtion they encript token in callback function ???
     
 # get tempfile location
 # python send payload with requests
