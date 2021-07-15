@@ -7,9 +7,7 @@ I am using this codes for working.
 ## Main selenium structrure
 ## Scroll down selenium (completed have to add)
 ## String split, convert
-## solve captcha (using extension)
-    https://2captcha.com/2captcha-api#solving_hcaptcha
-    http://www.hyocr.com/index.php
+
 ## session and cookie compare
 ## CSP disabled
 ## login using scrapy
