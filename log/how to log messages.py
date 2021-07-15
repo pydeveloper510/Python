@@ -46,7 +46,7 @@ myLogger.setLevel(logging.DEBUG) # logger lvl: DEBUG
 # create handler
 file_handler = logging.handlers.TimedRotatingFileHandler(
   filename=log_dir + '/' + LOG_FILENAME, when='midnight', interval=1,  encoding='utf-8'
-  ) # 자정마다 한 번씩 로테이션
+  ) # rotation every day
 # file_handler.suffix = 'log-%Y%m%d' # set suffix
 
 myLogger.addHandler(file_handler) # add handler on logger
