@@ -152,6 +152,7 @@ pip install schedule
 # requests test url
     IP: https://api.myip.com
     all info : https://httpbin.org/
-    
+# rpc request 'code': -32602, 'message': 'invalid argument 0: json: cannot unmarshal invalid hex string into Go struct field CallArgs.data of type hexutil.Bytes' ERR
+    delete space \n
     
 __ @ 2021 06 18 __
