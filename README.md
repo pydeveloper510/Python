@@ -154,5 +154,11 @@ pip install schedule
     all info : https://httpbin.org/
 # rpc request 'code': -32602, 'message': 'invalid argument 0: json: cannot unmarshal invalid hex string into Go struct field CallArgs.data of type hexutil.Bytes' ERR
     delete space \n
-    
+# version
+    일반적으로 앱 버전은 1.0.0 식의 구조를 가지고 있으며 점(.)으로 구분된다.
+    <Major Version> . <Minor Version> . <Build or Maintenance Version>
+    Major Version: 1부터 시작. 앱 전체 디자인 또는 기능 등이 매우 크게 바뀌는 경우 올림
+    Miner Version: 0부터 시작. 기능 추가 기능 변경 등의 경우 올림
+    Build or Maintenance Version: 1부터 시작. 자잘한 버그 수정, 코드 보완 등 미미한 변화가 발생한 경우 올림. 패치 버전이라고도 함
+
 __ @ 2021 06 18 __
