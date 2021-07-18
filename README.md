@@ -157,5 +157,6 @@ pip install schedule
     def my_handle(self):
     sentence = ' hello  apple  '
     sentence.strip()
-    
+# web3 
+
 __ @ 2021 06 18 __
