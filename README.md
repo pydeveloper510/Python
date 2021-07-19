@@ -158,5 +158,6 @@ pip install schedule
     sentence = ' hello  apple  '
     sentence.strip()
 # web3 
+send money axie complete
 
 __ @ 2021 06 18 __
