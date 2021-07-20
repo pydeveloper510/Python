@@ -159,5 +159,6 @@ pip install schedule
     sentence.strip()
 # web3 
 send money axie complete
+get private key from seed
 
 __ @ 2021 06 18 __
