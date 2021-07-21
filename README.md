@@ -163,4 +163,8 @@ get private key from seed
 
 #pyautogui
 
+get image position
+move to image 
+click image
+
 __ @ 2021 06 18 __
