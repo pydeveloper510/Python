@@ -171,6 +171,6 @@ get image postion that we want to screenshot on screen
 screenshot image
 click that image
 
-#
+#action chain
 
 __ @ 2021 06 18 __
