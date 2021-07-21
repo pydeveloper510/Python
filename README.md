@@ -161,4 +161,6 @@ pip install schedule
 send money axie complete
 get private key from seed
 
+#pyautogui
+
 __ @ 2021 06 18 __
