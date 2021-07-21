@@ -167,4 +167,10 @@ get image position
 move to image 
 click image
 
+get image postion that we want to screenshot on screen
+screenshot image
+click that image
+
+#
+
 __ @ 2021 06 18 __
