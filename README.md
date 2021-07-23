@@ -161,7 +161,7 @@ pip install schedule
 send money axie complete
 get private key from seed
 
-#pyautogui
+# pyautogui
 
 get image position
 move to image 
@@ -171,9 +171,9 @@ get image postion that we want to screenshot on screen
 screenshot image
 click that image
 
-#action chain
-#pyinstaller err
-pynput 1.6.8
+# action chain
+# pyinstaller err
+pynput 1.6.8 python 3.8.6
 pyinstaller --hidden-import="pynput.keyboard._win32" --hidden-import="pynput.mouse._win32" app.py
 
 pyinstaller --noconfirm --onefile --windowed --icon "H:/Workspace/pythonProject/odin_res/kaka.ico"  "H:/Workspace/pythonProject/odin_res/installer_test.py"
