@@ -184,5 +184,10 @@ pyinstaller --noconfirm --onefile --windowed --icon "H:/Workspace/pythonProject/
 mouse controller listener
 keyboard controller listener
 
+mouse = m_controller()
+mouse.position = (1, 100)
+mouse.move(10, 10)
+mouse.click(Button.left, 2)
+sleep(2)
 
 __ @ 2021 06 18 __
