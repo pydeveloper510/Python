@@ -190,4 +190,11 @@ mouse.move(10, 10)
 mouse.click(Button.left, 2)
 sleep(2)
 
+keyboard = k_controller()
+keyboard.press(Key.tab)
+sleep(2)
+keyboard.press(Key.tab)
+sleep(2)
+keyboard.press(Key.enter)
+
 __ @ 2021 06 18 __
