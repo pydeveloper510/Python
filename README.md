@@ -197,4 +197,6 @@ keyboard.press(Key.tab)
 sleep(2)
 keyboard.press(Key.enter)
 
+# connect bubble.io
+
 __ @ 2021 06 18 __
