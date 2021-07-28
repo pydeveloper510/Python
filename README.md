@@ -198,5 +198,6 @@ sleep(2)
 keyboard.press(Key.enter)
 
 # connect bubble.io
+# connect mysql db
 
 __ @ 2021 06 18 __
