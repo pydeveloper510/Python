@@ -197,7 +197,6 @@ keyboard.press(Key.tab)
 sleep(2)
 keyboard.press(Key.enter)
 
-# connect bubble.io
 # connect mysql db
 # send data to db
 # write data to db
