@@ -201,4 +201,8 @@ keyboard.press(Key.enter)
 # send data to db
 # write data to db
 
+# pyqt5
+fixedsize 
+QMessagebox
+
 __ @ 2021 06 18 __
