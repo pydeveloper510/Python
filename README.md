@@ -202,9 +202,9 @@ keyboard.press(Key.enter)
 # write data to db
 
 # pyqt5
-fixedsize 
+fixedsize (rogi project)
 QMessagebox
 realtime update label text
-realtime update table widget
+realtime update table widget (rogi project)
 
 __ @ 2021 06 18 __
