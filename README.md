@@ -204,5 +204,7 @@ keyboard.press(Key.enter)
 # pyqt5
 fixedsize 
 QMessagebox
+realtime update label text
+realtime update table widget
 
 __ @ 2021 06 18 __
