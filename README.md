@@ -209,5 +209,5 @@ realtime update table widget (rogi project)
 progress bar
 
 # c++ + python
-
+C++ install python native developement
 __ @ 2021 06 18 __
