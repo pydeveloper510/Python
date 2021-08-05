@@ -208,5 +208,6 @@ realtime update label text
 realtime update table widget (rogi project)
 progress bar
 
+# c++ + python
 
 __ @ 2021 06 18 __
