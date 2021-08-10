@@ -212,5 +212,7 @@ progress bar
 C++ install python native developement
 version???
 winhttp
+add resource file to project
+
 
 __ @ 2021 06 18 __
