@@ -29,8 +29,9 @@ I am using this codes for working.
     axie import extenstion swap to extension
     extension is handler 0
     
+    get user name
     # username = os.getenv("USERNAME")
-        # userProfile = "C:\\Users\\" + username + "\\AppData\\Local\\Google\\Chrome\\User Data\\Default"
+    # userProfile = "C:\\Users\\" + username + "\\AppData\\Local\\Google\\Chrome\\User Data\\Default"
     
     upload and download file to google driver
     
