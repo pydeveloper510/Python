@@ -215,5 +215,6 @@ version???
 winhttp
 add resource file to project
 
-
+# python remove file
+os.remove("./test.txt")
 __ @ 2021 06 18 __
