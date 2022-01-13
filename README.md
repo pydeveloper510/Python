@@ -218,4 +218,24 @@ add resource file to project
 # python remove file
 os.remove("./test.txt")
 
+
+# python listener keyboard click event
+
+def listenKeyboardFunc(self):
+    while True:
+        if keyboard.read_key() == 'a':
+            self.pos = {}
+            self.num = 0
+            self.clickFlag = 1
+            print(self.clickFlag)
+
+        if keyboard.read_key() == 's':
+            self.clickFlag = 0
+            print(self.clickFlag)
+
+        if keyboard.read_key() == 'd':
+            self.clickFlag = -1
+            print(self.clickFlag)
+            break
+                
 __ @ 2021 06 18 __
