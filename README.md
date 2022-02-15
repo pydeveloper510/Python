@@ -240,7 +240,7 @@ def listenKeyboardFunc(self):
                 
 # websocket
 
-## websocket server
+## websocket server (python file)
 ```
 import asyncio;
 # 웹 소켓 모듈을 선언한다.
@@ -260,7 +260,7 @@ asyncio.get_event_loop().run_until_complete(start_server);
 asyncio.get_event_loop().run_forever();
 ```
                 
- ## websocket client
+ ## websocket client (html file)
  ```
  <!DOCTYPE html>
 <html>
