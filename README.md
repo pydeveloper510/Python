@@ -318,6 +318,10 @@ webSocket.close();
 </body>
 </html>
 ```
+#scrapy response get herf
 
+```
+item_urls = response.xpath('//*[@id="component_2"]/div/div/span/div[1]/div[2]/div[1]/div/span/a/@href').getall()
+```
 
 __ @ 2021 06 18 __
