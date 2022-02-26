@@ -325,4 +325,10 @@ item_urls = response.xpath('//*[@id="component_2"]/div/div/span/div[1]/div[2]/di
 ```
 https://nittaku.tistory.com/136
 
+# matlib plot
+grid plot
+plot.grid()
+plot.show()
+
+
 __ @ 2021 06 18 __
