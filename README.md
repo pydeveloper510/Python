@@ -330,5 +330,13 @@ grid plot
 plot.grid()
 plot.show()
 
+# scrapy 
+```
+scrapy starproject projectname
+scrapy genspider spidername url
+scrapy crawl spidername
+```
+
+
 
 __ @ 2021 06 18 __
