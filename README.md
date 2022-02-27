@@ -336,6 +336,7 @@ scrapy starproject projectname
 scrapy genspider spidername url
 scrapy crawl spidername
 ```
+https://docs.scrapy.org/en/latest/topics/selectors.html
 
 
 
